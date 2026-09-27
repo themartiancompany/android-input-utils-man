@@ -28,42 +28,33 @@
 
 
 =============================
-key2keyevent
+keyboard-show
 =============================
 
 --------------------------------------------------------------
-Key to Key Event
+Shows Android virtual keyboard
 --------------------------------------------------------------
-:Version: key2keyevent |version|
+:Version: keyboard-show |version|
 :Manual section: 1
 
 
 Synopsis
 ========
 
-key2keyevent *[options]* *input-key*
+keyboard-show *[options]*
 
 
 Description
 ===========
 
-Returns Android key code for a given input key.
-
-
-Arguments
-============
-
-* *input-key*
-  
-  Any type of symbolic function you can think which
-  could go on a keyboard or on a physical button,
-  for example a letter or the 'eject disc' button
-  on a keyboard or the volume or power button on a
-  phone. Any switch-like object, a 'key-event'.
+Shows Android virtual keyboard.
 
 
 Application options
 =====================
+
+-m                   Launch mode.
+                     It can be 'sdotool'.
 
 -h                   Display help.
 -c                   Enable color output
@@ -84,8 +75,6 @@ Copyright Pellegrino Prevete. AGPL-3.0.
 See also
 ========
 
-* keyboard-show
-* sdotool
 * coordinates-orthonormal
 * activity-launch
 * activity-focused

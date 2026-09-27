@@ -5,8 +5,7 @@
    Copyright © 2024, 2025, 2026
                Pellegrino Prevete
 
-   All rights reserved
-   -------------------------------------------------------
+   All rights reserved -------------------------------------------------------
 
    This program is free software: you can redistribute it
    and/or modify it under the terms of the
@@ -98,6 +97,8 @@ See also
 From other packages
 ====================
 
+* key2keyevent
+* keyboard-show
 * sdotool
 * activity-launch
 * activity-focused
