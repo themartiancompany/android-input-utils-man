@@ -84,6 +84,7 @@ Copyright Pellegrino Prevete. AGPL-3.0.
 See also
 ========
 
+* keyboard-hide
 * keyboard-show
 * sdotool
 * coordinates-orthonormal

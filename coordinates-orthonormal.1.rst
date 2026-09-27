@@ -99,6 +99,7 @@ From other packages
 
 * key2keyevent
 * keyboard-show
+* keyboard-hide
 * sdotool
 * activity-launch
 * activity-focused

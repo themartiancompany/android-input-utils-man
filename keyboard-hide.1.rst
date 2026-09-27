@@ -28,26 +28,26 @@
 
 
 =============================
-keyboard-show
+keyboard-hide
 =============================
 
 --------------------------------------------------------------
-Shows Android virtual keyboard
+Hides Android virtual keyboard
 --------------------------------------------------------------
-:Version: keyboard-show |version|
+:Version: keyboard-hide |version|
 :Manual section: 1
 
 
 Synopsis
 ========
 
-keyboard-show *[options]*
+keyboard-hide *[options]*
 
 
 Description
 ===========
 
-Shows Android virtual keyboard.
+Hides Android virtual keyboard.
 
 
 Application options
@@ -75,7 +75,7 @@ Copyright Pellegrino Prevete. AGPL-3.0.
 See also
 ========
 
-* keyboard-hide
+* keyboard-show
 * coordinates-orthonormal
 * activity-launch
 * activity-focused
