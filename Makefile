@@ -64,6 +64,12 @@ build-man:
 	    "$${PWD}/build/$${_file%.rst}"; \
 	done
 
+clean:
+
+	rm \
+	  -vrf \
+	  "build"
+
 install-doc:
 
 	# $(INSTALL_FILE) \
@@ -97,4 +103,4 @@ uninstall-man:
 	    "$(MAN_DIR)/man1/$${_file%.rst}"; \
 	done
 
-.PHONY: build-man install install-doc install-man uninstall-man
+.PHONY: build-man clean install install-doc install-man uninstall-man
