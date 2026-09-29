@@ -95,6 +95,8 @@ install-man:
 	    "$(MAN_DIR)/man1/$${_file%.rst}"; \
 	done
 
+uninstall: uninstall-man
+
 uninstall-man:
 
 	for _file in $(MAN_FILES); do \
@@ -103,4 +105,4 @@ uninstall-man:
 	    "$(MAN_DIR)/man1/$${_file%.rst}"; \
 	done
 
-.PHONY: build-man clean install install-doc install-man uninstall-man
+.PHONY: build-man clean install install-doc install-man uninstall uninstall-man
